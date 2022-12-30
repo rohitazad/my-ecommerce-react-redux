@@ -1,0 +1,17 @@
+.userWrap{
+    margin-top: 20px;
+    .userPic{
+        width: 150px;
+    }
+}
+.userOrderWrap{
+    margin-top:50px;
+    .card{
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        box-sizing: border-box;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}

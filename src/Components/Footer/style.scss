@@ -1,0 +1,79 @@
+
+.myFooter{
+    background-color: #28282d;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0 50px;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 30%);
+    color: #ffffff;
+    margin-top: 30px;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        display: block;
+        background-image: linear-gradient(90deg, #cc1414 0%, #cc1414 100%);
+        box-shadow: 0 0 20px 0 rgba(228, 39, 49, 0.5);
+    }
+    .footerCopyright{
+        margin-top: 50px;
+        border-top: 1px solid #999;
+        padding-top: 30px;
+        text-align: center;
+        small{
+            color: #999;
+            font-size: 14px;
+        }
+        a{
+            font-size: 16px;
+            color: #999;
+            font-weight: 300;
+            transition: 0.4s ease;
+            text-decoration: none;
+            &:hover{
+                color: #ffffff;
+            }
+        }
+    }
+    .appIcon{
+        img{
+            width: 35%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        img + img{margin-left: 5%;}
+    }
+}
+
+.socialIconsList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li{
+        margin: 0 10px 0 0;
+        display: inline-block;
+        vertical-align: top;
+        a{
+            width: 45px;
+            height: 45px;
+            border-radius: 3px;
+            line-height: 45px;
+            text-align: center;
+            color: #fff;
+            font-size: 16px; 
+            display: block;   
+        }
+    }
+    .facebook a{background: #3c5b9b;}
+    .linkedin a{background: #0d6efd;}
+    .twitter a{background: #40c1df;}
+    .stackover a{background: #20c997;}
+    .blogGoogle a{background: #c619b8;}
+    .github a{background: #293d99;}
+    .ytube a{background: #ff0e00;}
+    
+}

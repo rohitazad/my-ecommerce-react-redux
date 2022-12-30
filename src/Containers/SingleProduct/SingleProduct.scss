@@ -1,0 +1,134 @@
+.productSingle{
+    padding:20px 0;
+    .content{
+        .productSingleLeft{
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            .productImg{
+                .imgZoom {
+                    padding: 10px;
+                    background: rgba(0,0,0,0.1);
+                    border-radius: 2px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .productThumbs{
+                    margin-top: 10px;
+                    .thumbItem{
+                        display: inline-block;
+                        vertical-align: top;
+                        width: 23%;
+                        box-sizing: border-box;
+                        padding: 2px;
+                        margin: 1%;
+                        background-color: rgba(0,0,0,0.4);
+                        img{
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        .productSingleRight{
+            display: inline-block;
+            vertical-align: top;
+            width: 70%;
+            box-sizing: border-box;
+            padding-left: 5%;
+            .productDetails{
+                .oldPrice{
+                    .textNormal{
+                        text-decoration: line-through;
+                    }
+                }
+                .title{
+                    font-size: 35px;
+                    font-weight: bold;
+                }
+                .para{
+                    font-size: 22px;
+                }
+                .textRed{
+                    color: #cc1414;
+                    min-width: 140px;
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: 32px;
+                }
+                .textNormal{
+                    font-weight: bold;
+                    padding-left: 5px;
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: 32px;
+                }
+                .textDark{
+                    color:gray;
+                    font-weight: bold;
+                    padding-left: 5px;
+                    line-height: 32px;
+                }
+                .quantity{
+                    margin-top: 10px;
+                    h5{
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 16px;
+                        margin-top: 14px;
+                        min-width: 140px;
+                    }
+                    .quatityBtnGroup{
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 18px;
+                        color: #ccc;
+                        height: 50px;
+                        text-align: center;
+                        border:solid 1px #ccc;
+                        .qtyBtn, .qty-value{
+                            cursor: pointer;
+                            display: inline-block;
+                            vertical-align: top;
+                            line-height: 48px;
+                            padding: 0 15px;
+                            font-size: 22px;
+                            font-weight: bold;
+                        }
+                        .qty-value{
+                            min-width: 70px;
+                            text-align: center;
+                            color: #000;
+                        }
+                    }
+
+                }
+                .outOfStock{
+                    margin-top: 20px;
+                    .outOfStockTxt{
+                        text-align: center;
+                        line-height: 55px;
+                    }
+                }
+                .addBuySection{
+                    .addToBtn{
+                        display: block;
+                        width: 100%;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: 22px;
+                        margin-bottom: 20px;
+                        .btnText{
+                            padding-left: 5px;
+                            vertical-align: top;
+                            display: inline-block;
+                            padding-top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

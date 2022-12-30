@@ -1,0 +1,13 @@
+.searchProducts{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: relative;
+    .btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
