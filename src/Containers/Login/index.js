@@ -55,7 +55,7 @@ const LoginContainer = () => {
           <h2>Login</h2>
             <FloatingLabel
               controlId="floatingInput"
-              label="Email address"
+              label="User ID"
               className="mb-3"
             >
               <Form.Control ref={userId} type="text" placeholder="userid" />
